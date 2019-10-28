@@ -11,3 +11,16 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  oceanwpchild
 */
+
+
+.elementor-12 .elementor-element.elementor-element-48f7918 .elementor-image img {
+    max-width: 200% !important;
+    margin-left: -20px;
+    margin-bottom: -10px;
+}
+
+@media only screen and (max-width: 959px) {
+.container, body.content-full-screen .elementor-section-wrap>.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 100% !important;
+}
+}

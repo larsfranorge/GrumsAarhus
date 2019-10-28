@@ -19,7 +19,7 @@ function register_form()
     $content .= '<img class="background-img" src=" '.plugins_url("registerplugin/img/pattern.png").' " >';
     $content .= '<div id="promotion-header">';
     $content .= '<h1 id="promotion-header-title"><span>welcome to</span><strong>grums </strong>moments</h1></div>';
-    $content .= '<img class="coin-gif" src" '.plugin_url("registerplugin/img/coinspinnormal.gif").' ">';
+    $content .= '<img class="coin-gif" src=" '.plugins_url("registerplugin/img/coinspinnormal.gif").' " >';
     $content .= '<div class="form">';
     $content .= '<form action="#">';
     $content .= '<div id="promotion-body">';
