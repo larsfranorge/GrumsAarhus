@@ -14,9 +14,42 @@
 
 
 .elementor-12 .elementor-element.elementor-element-48f7918 .elementor-image img {
-    max-width: 200% !important;
+    max-width: 150% !important;
     margin-left: -20px;
     margin-bottom: -10px;
+}
+
+.havknap {
+    color: #fff;
+    background: #000;
+    border: none;
+    font-size: 18px;
+    font-family: 'Dosis';
+    width: 230px;
+    display: block;
+    margin: 0 auto;
+}
+
+.grumsicons {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between;
+}
+
+.elementor-12 .elementor-element.elementor-element-384c0f6.elementor-widget-heading .elementor-heading-title {
+    animation: moveIn .5s ease-out !important;
+}
+
+@keyframes moveIn {
+    0% {
+        opacity: 0;
+        transform: translateY(500px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 @media only screen and (max-width: 959px) {
